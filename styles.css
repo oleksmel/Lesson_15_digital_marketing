@@ -25,12 +25,12 @@ body {
 
 .bg-element-1 {
     position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .bg-element-2 {
-    
-}
-
-.bg-element-3 {
-    
+    position: absolute;
+    right: 0;
+    bottom: 0;    
 }
