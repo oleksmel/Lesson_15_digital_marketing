@@ -13,3 +13,24 @@ body {
     max-width: 1170px;
     margin: 0 auto;
 }
+
+/*Header Start*/
+
+.header {
+    background: url(./img/header-background.png) 0 0 no-repeat;
+    background-size: cover;
+    min-height: 852px;
+    position: relative;
+}
+
+.bg-element-1 {
+    position: absolute;
+}
+
+.bg-element-2 {
+    
+}
+
+.bg-element-3 {
+    
+}
