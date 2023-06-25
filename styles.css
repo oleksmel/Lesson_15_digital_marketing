@@ -88,12 +88,20 @@ body {
     content: '';
     height: 1px;
     width: 60px;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-31%, -50%);
     background-color:#fff;
 }
-/*
-border-radius: 116px;
-border: 1px solid rgba(237, 255, 129, 0.40);
-background: rgba(255, 255, 255, 0.10);
-*/
+
+.banner-top-title::after {
+    content: '';
+    height: 1px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    right: 26%;
+    transform: translate(-50%, -26%);
+    background-color: #fff;
+}
