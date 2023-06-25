@@ -81,6 +81,16 @@ body {
     font-weight: 500;
     letter-spacing: 0.72px;
     opacity: 0.800000011920929;
+    position: relative;
+}
+
+.banner-top-title::before {
+    content: '';
+    height: 1px;
+    width: 60px;
+    top: 0;
+    left: 0;
+    background-color:#fff;
 }
 /*
 border-radius: 116px;
