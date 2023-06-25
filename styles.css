@@ -26,6 +26,8 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
 }
 
 .bg-element-1 {
@@ -58,11 +60,28 @@ body {
 }
 
 .header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 55px;
     background: rgba(255, 255, 255, 0.10);
     border: 1px solid rgba(237, 255, 129, 0.40);
     border-radius: 116px;
+    text-decoration: none;
+    color: #fff;
 }
 
+.banner-top-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    opacity: 0.800000011920929;
+}
 /*
 border-radius: 116px;
 border: 1px solid rgba(237, 255, 129, 0.40);
