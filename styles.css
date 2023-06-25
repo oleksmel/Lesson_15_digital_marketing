@@ -42,6 +42,7 @@ body {
 
 .main-menu ul {
     display: flex;
+    gap: 52px;
 }
 
 .main-menu ul li {
@@ -54,4 +55,10 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #ffffff;
+}
+
+.header-button {
+    background: ;
+    border: ;
+    border-radius: 1116px;
 }
