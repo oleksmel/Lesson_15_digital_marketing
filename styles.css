@@ -72,6 +72,10 @@ body {
     color: #fff;
 }
 
+.banner-content {
+    padding: 105px 0 0 0;
+}
+
 .banner-top-title {
     color: #FFF;
     text-align: center;
