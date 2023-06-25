@@ -17,10 +17,15 @@ body {
 /*Header Start*/
 
 .header {
-    background: url(./img/header-background.png) 0 0 no-repeat;
+    background: url(./img/header-background.png) center center no-repeat;
     background-size: cover;
     min-height: 852px;
     position: relative;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
 }
 
 .bg-element-1 {
@@ -33,4 +38,20 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;    
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu ul li {
+    list-style: none;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
 }
